@@ -42,7 +42,7 @@ public class testcase1 {
 		
 		driver.findElement(By.xpath("//span[@class='btn-find-flight-home'] //*[@value='Search']")).click();
 		
-		System.out.println("End of Script for the day");
+		System.out.println("End of Script for the Day1");
 		
 		driver.quit();
 
