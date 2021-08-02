@@ -6,9 +6,9 @@ public class Demo {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver_win32\\chromedriver.exe");
-		
+
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://login.salesforce.com/");
 		System.out.println(driver.getTitle());
